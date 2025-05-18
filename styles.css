@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Open,sans-serif;
+}
+body{ width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("https://fastly.picsum.photos/id/539/1920/1089.jpg?hmac=ANknQ9tuuT8qhmFF5XnZobd8Gxye5wKo6NQBhUxhZWo");}
+.big-box{ border-radius: 25px;
+background: #000;
+opacity: 0.8;
+width: 95%;
+max-width: 450px;}
+.input-city{border:none;
+    margin-top: 7px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+ 
+outline: none;
+padding: 10px;
+border-radius:25px ;
+font-size: 20px;
+background-color: #7c7c7c2b;
+color: #fff;
+width: calc(100%-90px);
+}
+.src-but{border-radius: 50px;
+    color: #fff;
+border: none; 
+outline: none;
+background-color: #e4dede2b;
+cursor: pointer;
+float: calc(100%-10px);
+
+ }
+.img-src{ background-color: #fff;
+    border-radius: 50px;
+    
+    width: 20px;
+}
+.city{ color: #fff;
+    font-size: 20; font-family: open;
+    width: 300;
+}
+.med-box{ margin-left: 7px;
+margin-top: 30px;}
+.temp{
+font-size: 20px;
+color:#fff;}
+.lil-box{
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.texto-previsao{color: #fff; 
+    margin-left:20px ;
+}
+.umudade{color: #fff; 
+    margin-left:20px ;
+    margin-top: 10px;
+}
